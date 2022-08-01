@@ -46,9 +46,14 @@ footer .content .top{
 }
 .content .top .logo-details{
   color: #fff;
-  font-size: 30px;
+  font-size: 25px;
   
 }
+
+.logo{
+  width: auto;
+}
+
 .content .top .media-icons{
   display: flex;
 }
