@@ -25,6 +25,7 @@
   </header>
 
   <!--bagian visi misi-->
+
   <div class="section-visi-misi warna-satu">
     <div class="container"><img src="https://bcadigital.co.id/_nuxt/img/img-gedung-bca.ad547a3.png" alt="" class="desktop-visimisi-img">
         <div class="visimisi-box warna-dua">
@@ -41,6 +42,39 @@
         </div>
     </div>
 </div>
+
+<!--bagian struktur -- start-->
+<div class="batas">
+  
+</div>
+<section>
+  <div class="row-structure">       
+        <h2 class="section-title">Struktur Organisasi</h2>          
+        <img src="images/gbr-org1.png" id="gambar">       
+      </div>
+        <div class="row-button ">          
+          <input type="image" src="images/button-r.png" onclick="gantiSrcMin()">        
+          <input type="image" src="images/button-l.png" onclick="gantiSrcPlus()">                 
+        </div>
+    </div> 
+  <script type="text/javascript"> 
+    let i = 1;  
+    function gantiSrcPlus(){
+      i++;
+      if(i==5){i=1;}
+      document.getElementById('gambar').src = 'images/gbr-org' + i + '.png';
+    }
+
+    function gantiSrcMin(){
+      i--;
+      if(i==0){i=4;}
+      document.getElementById('gambar').src = 'images/gbr-org' + i + '.png';
+    }
+  </script>
+</section>
+<div class="batas"></div>
+<!--bagian struktur -- end -->
+
 <section class="section-imageslide">
     <div class="box-imageslide">
         <div class="container">

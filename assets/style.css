@@ -17,6 +17,7 @@ body{
   font-family: "Lucida Grande";
   background-color: #30ced0;
 }
+
 footer{
   /* position: fixed; */
   background: #14b3ab;
@@ -659,3 +660,39 @@ header {
   top: 7px;
   box-shadow: none;
 }
+
+/*css by ag --- start*/
+
+.batas{
+  background-color: white;
+  height: 50px;
+}
+
+.row-button{
+  text-align: center;
+}
+
+.row-button input{
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+
+.row-structure img{
+  display: block;
+  width: 70%;
+  margin: 20px auto;
+  
+}
+
+.row-structure h2{
+  font-family: "Montserrat";    
+  font-size: 48px;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+/*css by ag --- end*/
