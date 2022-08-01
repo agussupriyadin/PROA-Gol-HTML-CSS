@@ -694,5 +694,39 @@ header {
   color: #fff;
   text-align: center;
 }
+/* Animasi pada h2*/
+h2
+{    
+  animation: moveInBottom infinite;
+  animation-duration: 3s;
+}
 
+@keyframes moveInBottom {
+  0%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  20%{
+    opacity: 0.75;
+    transform: translateY(15px);
+  }
+  40%{
+    opacity: 0.5;
+    transform: translateY(30px);
+  }
+
+   60%{
+    opacity: 0.5;
+    transform: translateY(30px);
+  }
+  80%{
+    opacity: 0.75;
+    transform: translateY(15px);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
 /*css by ag --- end*/
